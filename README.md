@@ -44,3 +44,6 @@ If you also want to have some more statistics, you can send the verbatim argumen
 ```
 
 You may also want to add some permissions to your root user to the files located in `/lib`, so they can be executed as root.
+
+# TODO:
+- [ ] Refine the README, it is written just to not forget how this project works, needs more work on the specifics.
