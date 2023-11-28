@@ -43,6 +43,20 @@ If you also want to have some more statistics, you can send the verbatim argumen
 ./dist/index.js 20 14 true
 ```
 
+To use with polybar, add this to the polybar config (change the path of the script if needed):
+```shell
+[module/apm]
+type = custom/script
+exec = ~/.config/polybar/apm.js 20 14
+tail = true
+interval = 1
+```
+
+Then you can use the module anywhere you want, for example: 
+```shell
+modules-right = apm
+```
+
 You may also want to add some permissions to your root user to the files located in `/lib`, so they can be executed as root.
 
 # TODO:
