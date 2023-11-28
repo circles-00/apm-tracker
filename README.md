@@ -24,7 +24,7 @@ yarn build
 
 You can use it as a CLI, or do something more creative with it, like using it with Polybar (I use it with polybar btw and it's awesome).
 
-Some screenshots:
+Some screenshots: <br>
 **1. This is polybar, and you can see the APM count up there** 
 ![image](https://github.com/circles-00/apm-tracker/assets/42126548/3e47516e-9c77-41d5-9ded-ec2021b2fd51)
 **2. As well as some neovim action alongside the polybar**
